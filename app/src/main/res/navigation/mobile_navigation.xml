@@ -10,16 +10,41 @@
         android:name="com.example.online_shopping.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
-
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.online_shopping.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
-
+        android:id="@+id/myBooking"
+        android:name="com.example.online_shopping.myBooking"
+        android:label="My_booking"
+        tools:layout="@layout/fragment_my_booking" />
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.online_shopping.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/contact"
+        android:name="com.example.online_shopping.Contact"
+        android:label="Contact"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/termCondition"
+        android:name="com.example.online_shopping.TermCondition"
+        android:label="Term_condition"
+        tools:layout="@layout/fragment_term_condition" />
+    <fragment
+        android:id="@+id/version"
+        android:name="com.example.online_shopping.Version"
+        android:label="Version"
+        tools:layout="@layout/fragment_version" />
+    <fragment
+        android:id="@+id/about"
+        android:name="com.example.online_shopping.about"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/feedback"
+        android:name="com.example.online_shopping.feedback"
+        android:label="Feedback"
+        tools:layout="@layout/fragment_feedback" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.online_shopping.Profile"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+
 </navigation>
