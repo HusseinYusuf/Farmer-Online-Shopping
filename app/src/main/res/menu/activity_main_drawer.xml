@@ -6,35 +6,35 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/nav_home"
             android:title="@string/menu_home" />
         <item
             android:id="@+id/myBooking"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/nav_booking"
             android:title="My Booking" />
         <item
             android:id="@+id/contact"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/nav_contact"
             android:title="Contact" />
         <item
             android:id="@+id/termCondition"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/nav_term_condition"
             android:title="Term &amp; COndition" />
         <item
             android:id="@+id/profile"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/nav_profile"
             android:title="Profile" />
         <item
             android:id="@+id/feedback"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/nav_feedback"
             android:title="feedback" />
         <item
             android:id="@+id/about"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/nav_about"
             android:title="About" />
         <item
             android:id="@+id/version"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/nav_version"
             android:title="Version" />
     </group>
 </menu>
